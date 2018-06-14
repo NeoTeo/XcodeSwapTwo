@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB998C3A20D2710B00C8B913 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB998C3920D2710B00C8B913 /* AppDelegate.swift */; };
+		AB998C3C20D2710D00C8B913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB998C3B20D2710D00C8B913 /* Assets.xcassets */; };
+		AB998C3F20D2710D00C8B913 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB998C3D20D2710D00C8B913 /* MainMenu.xib */; };
+		AB998C4E20D2712400C8B913 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB998C4D20D2712400C8B913 /* Cocoa.framework */; };
+		AB998C5120D2712400C8B913 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB998C5020D2712400C8B913 /* SourceEditorExtension.swift */; };
+		AB998C5320D2712400C8B913 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB998C5220D2712400C8B913 /* SourceEditorCommand.swift */; };
+		AB998C5820D2712400C8B913 /* SwapTwo.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB998C4B20D2712400C8B913 /* SwapTwo.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB998C5620D2712400C8B913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB998C2E20D2710B00C8B913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB998C4A20D2712400C8B913;
+			remoteInfo = SwapTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB998C5C20D2712400C8B913 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB998C5820D2712400C8B913 /* SwapTwo.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB998C3620D2710B00C8B913 /* TeoXcodeSwapTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeoXcodeSwapTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB998C3920D2710B00C8B913 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB998C3B20D2710D00C8B913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB998C3E20D2710D00C8B913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AB998C4020D2710D00C8B913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB998C4120D2710D00C8B913 /* TeoXcodeSwapTwo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeoXcodeSwapTwo.entitlements; sourceTree = "<group>"; };
+		AB998C4B20D2712400C8B913 /* SwapTwo.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwapTwo.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB998C4D20D2712400C8B913 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AB998C5020D2712400C8B913 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		AB998C5220D2712400C8B913 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		AB998C5420D2712400C8B913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB998C5520D2712400C8B913 /* SwapTwo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwapTwo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB998C3320D2710B00C8B913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB998C4820D2712400C8B913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB998C4E20D2712400C8B913 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB998C2D20D2710B00C8B913 = {
+			isa = PBXGroup;
+			children = (
+				AB998C3820D2710B00C8B913 /* TeoXcodeSwapTwo */,
+				AB998C4F20D2712400C8B913 /* SwapTwo */,
+				AB998C4C20D2712400C8B913 /* Frameworks */,
+				AB998C3720D2710B00C8B913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB998C3720D2710B00C8B913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB998C3620D2710B00C8B913 /* TeoXcodeSwapTwo.app */,
+				AB998C4B20D2712400C8B913 /* SwapTwo.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB998C3820D2710B00C8B913 /* TeoXcodeSwapTwo */ = {
+			isa = PBXGroup;
+			children = (
+				AB998C3920D2710B00C8B913 /* AppDelegate.swift */,
+				AB998C3B20D2710D00C8B913 /* Assets.xcassets */,
+				AB998C3D20D2710D00C8B913 /* MainMenu.xib */,
+				AB998C4020D2710D00C8B913 /* Info.plist */,
+				AB998C4120D2710D00C8B913 /* TeoXcodeSwapTwo.entitlements */,
+			);
+			path = TeoXcodeSwapTwo;
+			sourceTree = "<group>";
+		};
+		AB998C4C20D2712400C8B913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB998C4D20D2712400C8B913 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB998C4F20D2712400C8B913 /* SwapTwo */ = {
+			isa = PBXGroup;
+			children = (
+				AB998C5020D2712400C8B913 /* SourceEditorExtension.swift */,
+				AB998C5220D2712400C8B913 /* SourceEditorCommand.swift */,
+				AB998C5420D2712400C8B913 /* Info.plist */,
+				AB998C5520D2712400C8B913 /* SwapTwo.entitlements */,
+			);
+			path = SwapTwo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB998C3520D2710B00C8B913 /* TeoXcodeSwapTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB998C4420D2710D00C8B913 /* Build configuration list for PBXNativeTarget "TeoXcodeSwapTwo" */;
+			buildPhases = (
+				AB998C3220D2710B00C8B913 /* Sources */,
+				AB998C3320D2710B00C8B913 /* Frameworks */,
+				AB998C3420D2710B00C8B913 /* Resources */,
+				AB998C5C20D2712400C8B913 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB998C5720D2712400C8B913 /* PBXTargetDependency */,
+			);
+			name = TeoXcodeSwapTwo;
+			productName = TeoXcodeSwapTwo;
+			productReference = AB998C3620D2710B00C8B913 /* TeoXcodeSwapTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB998C4A20D2712400C8B913 /* SwapTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB998C5920D2712400C8B913 /* Build configuration list for PBXNativeTarget "SwapTwo" */;
+			buildPhases = (
+				AB998C4720D2712400C8B913 /* Sources */,
+				AB998C4820D2712400C8B913 /* Frameworks */,
+				AB998C4920D2712400C8B913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwapTwo;
+			productName = SwapTwo;
+			productReference = AB998C4B20D2712400C8B913 /* SwapTwo.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB998C2E20D2710B00C8B913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = teos;
+				TargetAttributes = {
+					AB998C3520D2710B00C8B913 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AB998C4A20D2712400C8B913 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = AB998C3120D2710B00C8B913 /* Build configuration list for PBXProject "TeoXcodeSwapTwo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB998C2D20D2710B00C8B913;
+			productRefGroup = AB998C3720D2710B00C8B913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB998C3520D2710B00C8B913 /* TeoXcodeSwapTwo */,
+				AB998C4A20D2712400C8B913 /* SwapTwo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB998C3420D2710B00C8B913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB998C3C20D2710D00C8B913 /* Assets.xcassets in Resources */,
+				AB998C3F20D2710D00C8B913 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB998C4920D2712400C8B913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB998C3220D2710B00C8B913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB998C3A20D2710B00C8B913 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB998C4720D2712400C8B913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB998C5120D2712400C8B913 /* SourceEditorExtension.swift in Sources */,
+				AB998C5320D2712400C8B913 /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB998C5720D2712400C8B913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB998C4A20D2712400C8B913 /* SwapTwo */;
+			targetProxy = AB998C5620D2712400C8B913 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB998C3D20D2710D00C8B913 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB998C3E20D2710D00C8B913 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB998C4220D2710D00C8B913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB998C4320D2710D00C8B913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB998C4520D2710D00C8B913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TeoXcodeSwapTwo/TeoXcodeSwapTwo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SK8WX2BAWU;
+				INFOPLIST_FILE = TeoXcodeSwapTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teos.TeoXcodeSwapTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AB998C4620D2710D00C8B913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TeoXcodeSwapTwo/TeoXcodeSwapTwo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SK8WX2BAWU;
+				INFOPLIST_FILE = TeoXcodeSwapTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teos.TeoXcodeSwapTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AB998C5A20D2712400C8B913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SwapTwo/SwapTwo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SK8WX2BAWU;
+				INFOPLIST_FILE = SwapTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teos.TeoXcodeSwapTwo.SwapTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AB998C5B20D2712400C8B913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SwapTwo/SwapTwo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SK8WX2BAWU;
+				INFOPLIST_FILE = SwapTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teos.TeoXcodeSwapTwo.SwapTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB998C3120D2710B00C8B913 /* Build configuration list for PBXProject "TeoXcodeSwapTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB998C4220D2710D00C8B913 /* Debug */,
+				AB998C4320D2710D00C8B913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB998C4420D2710D00C8B913 /* Build configuration list for PBXNativeTarget "TeoXcodeSwapTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB998C4520D2710D00C8B913 /* Debug */,
+				AB998C4620D2710D00C8B913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB998C5920D2712400C8B913 /* Build configuration list for PBXNativeTarget "SwapTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB998C5A20D2712400C8B913 /* Debug */,
+				AB998C5B20D2712400C8B913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB998C2E20D2710B00C8B913 /* Project object */;
+}
